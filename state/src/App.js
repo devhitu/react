@@ -1,6 +1,7 @@
 import React, { useState } from 'react'; //JSX를 React.createElement()로 변환하기 때문에, 모든 React 컴포넌트들은 반드시 React 모듈을 불러와야 함
 // import logo from './logo.svg';
 import './App.css';
+import Box from './Box'
 
 
 function App() { //React 컴포넌트는 파스칼-케이스(pascal-case) 변수명 사용
@@ -27,6 +28,9 @@ function App() { //React 컴포넌트는 파스칼-케이스(pascal-case) 변수
         <div>{count}</div>
         <div>{count2}</div>
         <button onClick={increase}>누르면 증가</button>
+        <Box name="abc" num="1"/>
+        <Box name="def" num="2"/>
+        <Box name="ghi" num="3"/>
     </div>
   );
 }
