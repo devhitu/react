@@ -10,7 +10,7 @@ function App() {
   //input값을 저장하는 usestate
   const [inputValue, setInputValue] = useState('')
 
-  //값을 저장 => 배열이 가장 좋다!
+  //값을 리스트에 저장하는 usestate
   const [todoList, setTodoList] = useState('')
   
   //버튼을 클릭할때마다 ...기존값을 냅두고 신규값 업뎃해줘

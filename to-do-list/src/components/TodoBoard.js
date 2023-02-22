@@ -7,7 +7,6 @@ function TodoBoard(props){
         <div>
             <h1>To do List</h1>
             {props.todoList.map((item)=><TodoItem item={item}/>)}
-            {/* {props.todoList.map((item)=><TodoItem item={item}/>)} */}
         </div>
     )
 }
