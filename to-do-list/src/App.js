@@ -11,7 +11,7 @@ function App() {
   const [inputValue, setInputValue] = useState('')
 
   //값을 리스트에 저장하는 usestate
-  const [todoList, setTodoList] = useState('')
+  const [todoList, setTodoList] = useState([]) // type
   
   //버튼을 클릭할때마다 ...기존값을 냅두고 신규값 업뎃해줘
   const addItem=()=>{
@@ -30,7 +30,7 @@ function App() {
         <button onClick={addItem}>추가</button>
 
           {/* components todoboard에 값을 전달*/}
-        <TodoBoard todoList={todoList}/>
+        <TodoBoard todoList={todoList} />
     </main>
   );
 }

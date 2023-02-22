@@ -27,7 +27,7 @@ function App() { //React 컴포넌트는 파스칼-케이스(pascal-case) 변수
     <div className="App">
         <div>{count}</div>
         <div>{count2}</div>
-        <button onClick={increase}>누르d면 증가</button>
+        <button onClick={increase}>누르면 증가</button>
         <main>
           <Box name="희주" num="1"/>
           <Box name="소피" num="2"/>
